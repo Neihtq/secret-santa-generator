@@ -1,4 +1,4 @@
-ADDRESS = "http://localhost:3000/"
+ADDRESS = "thienspi.ddnss.ch:3000"
 
 
 function fillDropDown() {
