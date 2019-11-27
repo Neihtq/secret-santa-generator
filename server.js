@@ -53,6 +53,7 @@ app.post('/assign', function(req, res) {
 })
 
 app.get('/', function (req, res) {
+    console.log("client connected!")
     res.sendFile(path.join(__dirname + '/index.html'));
 })
 
