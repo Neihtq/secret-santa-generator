@@ -1,6 +1,5 @@
 ADDRESS = " https://fusian.localtunnel.me/"
 
-
 function fillDropDown() {
     httpAsync("names", (response) => {
         var data = JSON.parse(JSON.parse(response));
