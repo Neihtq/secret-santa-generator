@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<!--
+	Visualize by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Fusian Secret Santa</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<span class="avatar"><img src="https://scontent-frt3-2.cdninstagram.com/vp/b9a32dc925ed3a80b359ef6b6a8c19a0/5E75C8AE/t51.2885-19/s320x320/72177942_1156092484580749_2070589379620896768_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com" alt="" /></span>
+						<ul class="icons">
+							<li><a href="https://www.facebook.com/FusianDanceCrew/" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/fusiandance/" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="mailto:fusianmunich@gmail.com" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<h1>Fusian Secret Santa</h1>
+						<label>Your name:
+							<select id="names">
+							</select>
+						</label>
+						Your secret code: <input type="text" id="secret"><br>
+						<input type="submit" value="Who will I gift?" id="submitBtn" onclick="buttonClick()">
+						<br>
+						<h1 id="giftedLabel">test</h1>
+					</header>
+
+				<!-- Main -->
+					<section id="main">
+
+						<!-- Thumbnails -->
+							<section class="thumbnails">
+								<div>
+									<a href="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/74673914_3208832482522930_542178124196033055_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=110&oh=c39ff9b4ab5d17d7dc316628ece2f4b5&oe=5E77B959">
+										<img src="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/74673914_3208832482522930_542178124196033055_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=110&oh=c39ff9b4ab5d17d7dc316628ece2f4b5&oe=5E77B959" alt="" />
+									</a>
+								</div>
+								<div>
+									<a href="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/61212447_375184309777821_6328565166719616557_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=109&oh=e2e1e469a8c379d6ff0e26aa8f9ae2f9&oe=5E669112">
+										<img src="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/61212447_375184309777821_6328565166719616557_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=109&oh=e2e1e469a8c379d6ff0e26aa8f9ae2f9&oe=5E669112" alt="" />
+									</a>
+									<a href="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/54210564_168978120770196_8500591829239897026_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=100&oh=ee4ce2246fab59e570b73effb0c6f209&oe=5E7DDFC0">
+										<img src="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/54210564_168978120770196_8500591829239897026_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=100&oh=ee4ce2246fab59e570b73effb0c6f209&oe=5E7DDFC0" alt="" />
+									</a>
+									<a href="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/75291125_731926677277115_20941323593299544_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=111&oh=ac21126ec28517016af254d96e0e961f&oe=5E759BCC">
+										<img src="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/75291125_731926677277115_20941323593299544_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=111&oh=ac21126ec28517016af254d96e0e961f&oe=5E759BCC" alt="" />
+									</a>
+								</div>
+								<div>
+									<a href="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/70441080_160000628403872_4616198276992576144_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=108&oh=5ad0230482e18c9cbeece7c842cc8f87&oe=5E673703">
+										<img src="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/70441080_160000628403872_4616198276992576144_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=108&oh=5ad0230482e18c9cbeece7c842cc8f87&oe=5E673703" alt="" />
+									</a>
+								</div>
+							</section>
+
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p>Fusian Dance Crew</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="main.js"></script>
+
+	</body>
+</html>
