@@ -2,24 +2,10 @@ var express = require("express");
 var app = express();
 var path = require('path');
 
-var names = ["Iusti", "Martin", "Aniek", "Leon", "Nam", "Cao", "Talha", "Pitr", "Daniel", "Arina", "Terri", "Linh", "Liana"]
+var names = []
 var matchings = {};
-var nameDict = {
-    "Iusti": "emA2eernAL",
-    "Martin": "pmomspj5JA",
-    "Aniek": "AJoHPDtMPV",
-    "Leon": "159MawqrLz",
-    "Nam": "2BrxTs5RrB",
-    "Cao": "C8QCLQClYe",
-    "Talha": "olN9f8bI8G",
-    "Pitr": "0uOyAmBaL3",
-    "Daniel": "CImjEkNiwl",
-    "Arina": "qj9WZOAGPi",
-    "Terri": "3z3SLhXWpD",
-    "Linh": "aMdOBu4lE3",
-    "Liana": "piKtpE3IwP"
-};
-var unmatched = ["Iusti", "Martin", "Aniek", "Leon", "Nam", "Cao", "Talha", "Pitr", "Daniel", "Arina", "Terri", "Linh", "Liana"];
+var nameDict = {};
+var unmatched = [];
 
 function assign(secretSanta) {
     if (secretSanta in matchings) {
